@@ -8,6 +8,13 @@ import { IoPerson } from "react-icons/io5";
 import { MdBusinessCenter } from "react-icons/md";
 import { FaBlog } from "react-icons/fa";
 import { BiSolidContact } from "react-icons/bi";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
+import { FaRegCopyright } from "react-icons/fa";
+
 
 class Nav_bar extends React.Component {
     render() {
@@ -33,6 +40,15 @@ class Nav_bar extends React.Component {
                                 <img src={Selva_db} alt="selva samprash A" />
                             </div>
                             <h1>selva samprash a</h1>
+
+                            <div className="icons">
+                                <FaFacebook className="ic facebook" />
+                                <FaInstagram className="ic instagram" />
+                                <FaTwitter className="ic twitter" />
+                                <FaGithub className="ic github" />
+                                < FaLinkedin className="ic linkedin" />
+
+                            </div>
                         </header>
 
                         {/* second part menu items */}
@@ -59,6 +75,14 @@ class Nav_bar extends React.Component {
 
                             </div>
                         </div>
+
+
+                        {/* Third part menu items */}
+
+                        <footer className="bottom-part">
+                            <p><FaRegCopyright className="copyright"/> Copyright 2024</p>
+                            <p> Designed By <span>selva samprash A</span> </p>
+                        </footer>
                     </div>
 
                 </div>
