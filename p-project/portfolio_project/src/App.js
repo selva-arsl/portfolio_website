@@ -1,9 +1,19 @@
 import './App.css';
+import Home from "./home.js";
+import About from "./about.js";
+import Portfolio from './portfolio.js';
+import Blogs from './blogs.js';
+import Contact from './contact.js';
 
 function App() {
   return (
     <div className="App">
-        <h1>selva samprash</h1>
+      <Home />
+      <About />
+      <Portfolio />
+      <Blogs />
+      <Contact />
+
     </div>
   );
 }
