@@ -16,8 +16,38 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaRegCopyright } from "react-icons/fa";
 
 
+
 class Nav_bar extends React.Component {
     render() {
+
+        // let MenuBtn = document.getElementsByClassName("menu");
+
+        // MenuBtn.addEventListner('click',function(e){
+
+        //     document.querySelector('body').classList.toggle("close");
+        //     this.classList.toggle();
+
+
+        // });
+
+        // const menu= document.querySelector(".menu");
+        // const menuList = document.querySelector(".sidebar");
+        // menu.addEventListener('click',()=>{
+        //     menuList.classList.toggle(".active");
+        // });
+
+        // let changeIcon = function(icon){
+        //     icon.classList.toggle(`${<IoCloseSharp/>}`);
+        // }
+
+        // let MenuBtn= document.getElementById("MenuBtn");
+        // MenuBtn.addEventListener('click',function(e){
+        //  document.querySelector('body').classList.toggle('mobile-nav-active');
+        //  this.classList.toggle('closebar');
+        // });
+
+
+
         return (
             <>
 
@@ -80,7 +110,7 @@ class Nav_bar extends React.Component {
                         {/* Third part menu items */}
 
                         <footer className="bottom-part">
-                            <p><FaRegCopyright className="copyright"/> Copyright 2024</p>
+                            <p><FaRegCopyright className="copyright" /> Copyright 2024</p>
                             <p> Designed By <span>selva samprash A</span> </p>
                         </footer>
                     </div>

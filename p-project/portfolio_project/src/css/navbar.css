@@ -1,5 +1,6 @@
 .menu-main {
     min-height: 100vh;
+
 }
 
 .sidebar {
@@ -12,12 +13,32 @@
     transition: 0.6s ease;
     transition-property: left;
     color: white;
-    /* left: -300px; */
+    left: 0px;
 }
 
 /* .sidebar .active{
     left:0px;   
 } */
+
+.menu-btn .menu {
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    font-size: 20px;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    line-height: 42px;
+    border-radius: 50%;
+    z-index: 999;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
+    cursor: pointer;
+    /* display:none; */
+
+}
 
 
 header {
@@ -26,6 +47,7 @@ header {
     flex-direction: column;
     align-items: center;
     padding-top: 15px;
+
 }
 
 header .img {
@@ -128,4 +150,17 @@ header h1 {
     color: red;
     font-size: 18px;
     letter-spacing: 2px;
+}
+
+
+
+/*mobile view*/
+
+@media only screen and (max-width:1050px) {
+    .sidebar {
+
+        left: -300px;
+
+    }
+   
 }
