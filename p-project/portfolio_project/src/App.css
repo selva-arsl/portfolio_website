@@ -2,11 +2,15 @@
   margin:0px;
   padding:0px;
   box-sizing:border-box;
+  scroll-behavior: smooth;
 
 }
 
-.App{
-   Width:100%;
-   height: 100vh;
-   background-color: skyblue;
+:root{
+  --red-color:red;
+  --gray-color:gray;
+  --black-color:black;
+  --white-color:white;
+  --orange-color:orange;
 }
+

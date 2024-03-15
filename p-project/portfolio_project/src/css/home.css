@@ -1,12 +1,221 @@
 .home-container{
-    width:100%;
-    height: 100vh;
-    background-color: rgb(108, 15, 109);
-    color:white;
-    display:grid;
-    place-items: center;
+    min-height:648px;
+    background-color: var(--white-color);
+    /* border:3px solid brown; */
+    margin-top:80px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+   
 }
 
-.home-container>h1{
-    font-size:100px;
+.home-overall{
+    width: 80%;
+    min-height: 550px;
+    /* border:2px solid black; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.img-left{
+    width:100%;
+    min-height: 550px;
+    /* border:2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-left img{
+    width:85%;
+    height:85%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+    
+}
+
+
+.content-right{
+    width:100%;
+    min-height: 550px;
+    /* border: 2px solid burlywood; */
+    padding:100px 80px;
+}
+
+.content-right h4{
+     color:var(--red-color);
+     font-size:30px;
+}
+
+.content-right h1{
+    font-size:50px;
+    padding:3px 0px;
+}
+
+.content-right h3{
+    font-size:25px;
+    padding:4px 0px 8px;
+}
+
+.content-right p{
+    color:var(--gray-color);
+    font-size:18px;
+    line-height: 28px;
+    padding:7px 0px 25px 0px;
+}
+
+.content-right button{
+    font-size:16px;
+    padding:13px 30px;
+    border: none;
+    border-radius:25px;
+    color:var(--white-color);
+    background-color:var(--orange-color);
+    font-weight:bold;
+    letter-spacing:1px;
+    cursor:pointer;
+    transition: all 0.5s ease;
+    border:3px solid var(--orange-color);
+
+    
+}
+
+.content-right button:hover{
+    color:var(--black-color);
+    background-color:var(--white-color);
+    border:3px solid var(--orange-color);
+    
+}
+/*mobile view*/
+@media only screen and (min-width:320px) and (max-width:500px){
+    .home-overall{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:20px;
+        padding:20px;
+        text-align: center;
+    }
+
+    .home-overall{
+        width: 100%;
+        min-height: 550px;
+        /* border:2px solid black; */
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .img-left{
+        width:100%;
+        min-height:350px;
+        /* border:2px solid red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    .content-right{
+        width:100%;
+        min-height: 350px;
+        /* border: 2px solid burlywood; */
+        padding:20px;
+    }
+
+    .content-right h4{
+        font-size:16px;
+    }
+    .content-right h1{
+        font-size:26px;
+    }
+    .content-right h3{
+        font-size: 15px;
+    }
+    .content-right p{
+        font-size:15px;
+        line-height: 25px;
+    }
+    .content-right button{
+        font-size:14px;
+    }
+}
+
+
+/*tab view*/
+@media only screen and (min-width:500px) and (max-width:1000px){
+    .home-overall{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:50px;
+        padding:50px;
+        text-align: center;
+    }
+
+    .home-overall{
+        width: 100%;
+        min-height: 550px;
+        /* border:2px solid black; */
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .img-left{
+        width:100%;
+        min-height:350px;
+        /* border:2px solid red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    .content-right{
+        width:100%;
+        min-height: 450px;
+        /* border: 2px solid burlywood; */
+        padding:100px 30px;
+    }
+
+    .content-right h4{
+        font-size:25px;
+    
+    }
+    .content-right h1{
+        font-size:40px;
+    }
+    .content-right h3{
+        font-size: 25px;
+    }
+    .content-right p{
+        font-size:18px;
+        line-height: 30px;
+    }
+    .content-right button{
+        font-size:16px;
+    }
+}
+
+
+
+/* @media only screen and (max-width:1000px){
+    .home-overall{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+} */
+

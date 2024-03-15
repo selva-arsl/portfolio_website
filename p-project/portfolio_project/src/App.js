@@ -14,7 +14,7 @@ function App() {
 
 
       <BrowserRouter>
-        <Nav_bars/>
+        <Nav_bars />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -23,17 +23,6 @@ function App() {
           <Route path="contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
-
-
-
-
-
-      {/*       
-      <Home />
-      <About />
-      <Portfolio />
-      <Blogs />
-      <Contact /> */}
 
     </div>
   );
