@@ -1,7 +1,7 @@
 import React from "react";
 import './App.css';
-import Nav_bar from './navbar.js';
 import { Routes, Route, BrowserRouter } from "react-router-dom";
+import Nav_bars from "./nav.js";
 import Home from "./home.js";
 import About from "./about.js";
 import Portfolio from './portfolio.js';
@@ -14,6 +14,7 @@ function App() {
 
 
       <BrowserRouter>
+        <Nav_bars/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -27,8 +28,8 @@ function App() {
 
 
 
-      <Nav_bar />
-      {/* <Home />
+      {/*       
+      <Home />
       <About />
       <Portfolio />
       <Blogs />

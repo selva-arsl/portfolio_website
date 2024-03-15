@@ -20,36 +20,11 @@ import { FaRegCopyright } from "react-icons/fa";
 class Nav_bar extends React.Component {
     render() {
 
-        // let MenuBtn = document.getElementsByClassName("menu");
-
-        // MenuBtn.addEventListner('click',function(e){
-
-        //     document.querySelector('body').classList.toggle("close");
-        //     this.classList.toggle();
-
-
-        // });
-
-        // const menu= document.querySelector(".menu");
-        // const menuList = document.querySelector(".sidebar");
-        // menu.addEventListener('click',()=>{
-        //     menuList.classList.toggle(".active");
-        // });
-
-        // let changeIcon = function(icon){
-        //     icon.classList.toggle(`${<IoCloseSharp/>}`);
-        // }
-
-        // let MenuBtn= document.getElementById("MenuBtn");
-        // MenuBtn.addEventListener('click',function(e){
-        //  document.querySelector('body').classList.toggle('mobile-nav-active');
-        //  this.classList.toggle('closebar');
-        // });
-
-
-
         return (
+
+
             <>
+
 
                 <div className="menu-main">
 
