@@ -4,8 +4,11 @@ import Selva_db from "./assets/selva_db.jpg";
 import { IoPerson } from "react-icons/io5";
 
 
+
 class Home extends React.Component {
     render() {
+        
+         
 
         return (
 
@@ -23,7 +26,7 @@ class Home extends React.Component {
 
                         <h1>Selva samprash A</h1>
 
-                        <h3>I'm a front end developer</h3>
+                        <h3>I'm a <span className="auto-type"> front end developer </span></h3>
 
                         <p>I have one year of experience in real-time projects.  And I have done functionality and API integration in Admin panel projects.  Then I learned many things on myself in front-end.</p>
 
