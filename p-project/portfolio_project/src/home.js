@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/home.css";
-import Selva_db from "./assets/selva_db.jpg";
+import Selva_db from "./assets/db2.jpg";
 import { IoPerson } from "react-icons/io5";
 
 
