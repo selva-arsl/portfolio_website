@@ -616,23 +616,28 @@
     display:flex;
     align-items: center;
     justify-content: center;
+    padding:60px;
 }
 
 .Education-all{
     width:85%;
     min-height:650px;
-    border:1px solid red;
+    /* border:1px solid red; */
     display: grid;
     grid-template-columns: auto auto ;
     align-items: center;
     justify-content:center;
-    gap:30px;
+    gap:40px;
 }
 
 .Education-box1,.Education-box2,.Education-box3,.Education-box4{
    
     min-height:325px;
     border:5px solid black;
+    border-top:none;
+    border-right:none;
+    border-bottom: none;
+    position: relative;
     
     
 }
@@ -640,6 +645,7 @@
 .Education-box1 h2,.Education-box2 h2,.Education-box3 h2,.Education-box4 h2{
     font-size:30px;
     padding:30px 30px;
+    margin-top:50px;
 }
 
 .Education-box1 p,.Education-box2 p,.Education-box3 p,.Education-box4 p{
@@ -649,12 +655,15 @@
 }
 
 .icons{
-    border:1px solid black;
+    /* border:1px solid black; */
     display: flex;
     align-items: center;
     justify-content: start;
     gap:20px;
-    position: relative;
+    position: absolute;
+    left:-40px;
+    top:0px;
+    
    
 }
 
@@ -686,12 +695,13 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding:40px;
+        padding:22px;
+        gap:20px;
     }
     .Education-all{
         width:auto;
         min-height:650px;
-        border:1px solid red;
+        /* border:1px solid red; */
         display: grid;
         grid-template-columns: auto;
         align-items: center;
@@ -703,9 +713,61 @@
         width: 100%;
         min-height:325px;
         border:5px solid black;
+        border-right:none;
+        border-top:none;
+        border-bottom:none;
+
         
         
     }
+
+    .icons{
+        /* border:1px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap:10px;
+        position: absolute;
+        left:-28px;
+        top:0px;
+        
+       
+    }
+    
+      
+    
+    .icons>span{
+        color:white;
+        background-color: black;
+        font-size:14px;
+        padding:7px 20px;
+        border-radius:20px;
+       
+    }
+    .icon1{
+        font-size:20px;
+        color:white;
+        background-color: red;
+        width:50px;
+        height: 50px;
+        padding:13px;
+        border-radius: 50%;
+    
+    }
+
+    .Education-box1 h2,.Education-box2 h2,.Education-box3 h2,.Education-box4 h2{
+        font-size:25px;
+        padding:20px;
+        margin-top:50px;
+    }
+    
+    .Education-box1 p,.Education-box2 p,.Education-box3 p,.Education-box4 p{
+        font-size:18px;
+        padding:0px 30px 20px;
+        line-height:28px;
+    }
+    
+    
      
 }
 
@@ -725,7 +787,7 @@
     .Education-all{
         width:auto;
         min-height:650px;
-        border:1px solid red;
+        /* border:1px solid red; */
         display: grid;
         grid-template-columns: auto auto;
         align-items: center;
@@ -740,6 +802,67 @@
         
         
     }
+
+    .Education-box1,.Education-box2,.Education-box3,.Education-box4{
+        width: 100%;
+        min-height:325px;
+        border:5px solid black;
+        border-right:none;
+        border-top:none;
+        border-bottom:none;
+
+        
+        
+    }
+
+    .icons{
+        /* border:1px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap:10px;
+        position: absolute;
+        left:-28px;
+        top:0px;
+        
+       
+    }
+    
+      
+    
+    .icons>span{
+        color:white;
+        background-color: black;
+        font-size:14px;
+        padding:7px 20px;
+        border-radius:20px;
+       
+    }
+    .icon1{
+        font-size:20px;
+        color:white;
+        background-color: red;
+        width:50px;
+        height: 50px;
+        padding:13px;
+        border-radius: 50%;
+    
+    }
+
+    .Education-box1 h2,.Education-box2 h2,.Education-box3 h2,.Education-box4 h2{
+        font-size:25px;
+        padding:20px;
+        margin-top:50px;
+    }
+    
+    .Education-box1 p,.Education-box2 p,.Education-box3 p,.Education-box4 p{
+        font-size:18px;
+        padding:0px 30px 20px;
+        line-height:28px;
+    }
+    
+    
+     
      
 }
 
