@@ -1,12 +1,146 @@
-.portfolio-container{
-    width:100%;
-    height: 100vh;
-    background-color: rgb(16, 164, 152);
-    color:white;
-    display:grid;
-    place-items: center;
+.mywork-container {
+    width: 100%;
+    min-height: 150px;
+    /* border:1px solid red; */
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.portfolio-container>h1{
-    font-size:100px;
+.mywork-container h1 {
+    font-size: 70px;
+    letter-spacing: 2px;
+    color: red
+}
+
+.mywork-container h1 span {
+    color: black;
+}
+
+@media only screen and (max-width:500px) {
+    .mywork-container {
+
+        min-height: 100px;
+
+    }
+
+    .mywork-container h1 {
+        font-size: 40px;
+
+    }
+
+}
+
+.overall {
+  display:grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  align-items: center;
+  gap:50px;
+  padding:50px;
+
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+
+
+}
+
+.image {
+    display: block;
+    width: 400px;
+    height: 400px;
+}
+
+.overlay {
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background-color: #000;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+.overlayLeft {
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    background-color: #00b1ba;
+
+}
+
+.overlayRight {
+    height: 100%;
+    width: 0;
+    top: 0;
+    right: 0;
+    background-color: #00b1ba;
+}
+
+.overlayTop {
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: #00b1ba;
+
+}
+
+.overlayBottom {
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #00b1ba;
+}
+
+.overlayCross {
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: #00b1ba;
+
+
+}
+
+.overlayFade {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #00b1bab3;
+
+}
+
+.container:hover .overlayLeft,
+.container:hover .overlayRight {
+    width: 100%;
+}
+
+.container:hover .overlayTop,
+.container:hover .overlayBottom {
+    height: 100%;
+}
+
+.container:hover .overlayCross {
+    width: 100%;
+    height: 100%;
 }
