@@ -261,3 +261,41 @@
     }
 
 } */
+
+
+/* .home-second{
+    width:100%;
+    min-height:100vh;
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-second-overall{
+    width:90%;
+    min-height:100vh;
+    border:1px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+.home-left{
+    width:50%;
+    min-height:600px;
+    background-color: bisque;
+}
+
+.home-right{
+    width:50%;
+    min-height:600px;
+    background-color: rgb(108, 189, 128);
+}
+
+.home-right img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    padding:50px;
+} */

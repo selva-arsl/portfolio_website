@@ -19,14 +19,17 @@ class Footer extends React.Component {
                 </div>
 
                 <div className="ft-rights-side">
-                
-                        <FaFacebook className="facebook"/>
-                        <FaInstagram className="instagram"/>
-                        <IoLogoWhatsapp className="whatsapp"/>
-                        <FaLinkedin className="linkedin"/>
-                        <FaGithub className="github"/>
-                        <FaTwitter className="twitter"/>
-                    
+
+                    <a href="https://www.facebook.com/profile.php?id=100008707067414"><FaFacebook className="facebook" /></a>
+                    <a href="https://www.instagram.com/selvasamprash/"><FaInstagram className="instagram" /></a>
+                    <a href="https://www.whatsapp.com/"><IoLogoWhatsapp className="whatsapp" /></a>
+                    <a href="https://in.linkedin.com/"><FaLinkedin className="linkedin" /></a>
+                    <a href="https://github.com/selva-arsl"><FaGithub className="github" /></a>
+                    <a href="https://twitter.com/?lang=en"> <FaTwitter className="twitter" /></a>
+
+
+
+
                 </div>
 
             </div>
