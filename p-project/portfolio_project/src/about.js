@@ -59,16 +59,16 @@ class About extends React.Component {
                     </div>
 
                     <div className="right-side">
-                        <div className="first">
+                        <div className="firster">
                             <h1>1</h1>
                             <p>Year Of Experience</p>
                         </div>
-                        <div className="second">
+                        <div className="seconder">
                             <h1>2</h1>
                             <p>Months Of Internship</p>
                         </div>
 
-                        <div className="third">
+                        <div className="thirder">
                             <h1>20+</h1>
                             <p>Projects Completed</p>
                         </div>

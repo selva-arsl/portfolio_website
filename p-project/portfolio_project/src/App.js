@@ -9,6 +9,7 @@ import Blogs from './blogs.js';
 import Contact from './contact.js';
 import Footer from "./footer.js";
 
+
 function App() {
   return (
     <div className="App">

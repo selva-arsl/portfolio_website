@@ -204,7 +204,7 @@ textarea {
 .btn-overall button:hover {
     color: red;
     background-color: white;
-    border: 2px solid white;
+    border: 2px solid black;
 }
 
 /* mobile view */
@@ -389,7 +389,7 @@ textarea {
     .btn-overall button:hover {
         color: red;
         background-color: white;
-        border: 2px solid white;
+        border: 2px solid black;
     }
 
 
@@ -584,7 +584,7 @@ textarea {
     .btn-overall button:hover {
         color: red;
         background-color: white;
-        border: 2px solid white;
+        border: 2px solid black;
     }
 
 

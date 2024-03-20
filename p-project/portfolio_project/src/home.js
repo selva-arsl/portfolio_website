@@ -10,7 +10,6 @@ class Home extends React.Component {
     render() {
 
 
-
         return (
 
             <>
@@ -40,24 +39,8 @@ class Home extends React.Component {
                 </div>
 
 
-                {/* second part */}
-
-                {/* <div className="home-second">
-
-                    <div className="home-second-overall">
-                        <div className="home-left">
-                            
-                        </div>
-                        <div className="home-right">
-                            <img src={Selva_db2} alt="samprash"/>
-                        </div>
-                    </div>
-
-
-
-                </div> */}
-
             </>
+
 
         );
     };
