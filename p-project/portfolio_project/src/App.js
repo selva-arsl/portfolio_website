@@ -7,6 +7,7 @@ import About from "./about.js";
 import Portfolio from './portfolio.js';
 import Blogs from './blogs.js';
 import Contact from './contact.js';
+import Footer from "./footer.js";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="blogs" element={<Blogs />} />
           <Route path="contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
 
     </div>
