@@ -1,0 +1,595 @@
+.contact-container {
+    width: 100%;
+    min-height: 125px;
+    /* border: 1px solid black; */
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container h1 {
+    color: red;
+    font-size: 70px;
+}
+
+.contact-container h1 span {
+    color: black;
+}
+
+
+@media only screen and (max-width:600px) {
+    .contact-container {
+        width: 100%;
+        min-height: 100px;
+    }
+
+    .contact-container h1 {
+        color: red;
+        font-size: 40px;
+    }
+}
+
+
+.contactme-container {
+    width: 100%;
+    min-height: 700px;
+    /* background-color: skyblue; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactme-overall {
+    width: 100%;
+    min-height: 500px;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact-left {
+    width: 600px;
+    min-height: 550px;
+    /* background-color: azure; */
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-content: center;
+    padding: 0px 60px;
+    gap: 35px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 40px;
+
+}
+
+.first-overall,
+.second-overall,
+.thirds-overall {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 40px;
+    min-height: 100px;
+    padding: 25px;
+}
+
+.first,
+.second,
+.third {
+    font-size: 40px;
+    color: red;
+
+
+}
+
+.first-right,
+.second-right,
+.third-right {
+    /* border: 1px solid black; */
+    line-height: 28px;
+}
+
+.first-right p,
+.second-right p,
+.third-right p {
+    color: gray;
+}
+
+
+.contact-right {
+    width: 600px;
+    min-height: 550px;
+    border-radius: 50px;
+    /* background-color: rgb(157, 131, 213); */
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 0px 50px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.name-email {
+    /* border: 1px solid black; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+#name {
+    /* width: 100%; */
+    width: 225px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+
+input::placeholder {
+    padding-left: 20px;
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+textarea::placeholder {
+    padding-left: 20px;
+    font-size: 16px;
+    padding-top: 20px;
+    font-family: cursive;
+    font-weight: bold;
+
+}
+
+#email {
+    /* width: 100%; */
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+
+#subject {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+
+}
+
+input,
+textarea {
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+
+textarea {
+    width: 500px;
+    height: 150px;
+}
+
+
+.btn-overall {
+    display: flex;
+    justify-content: end;
+}
+
+
+.btn-overall button {
+    color: white;
+    background-color: red;
+    border: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 13px;
+    cursor: pointer;
+    border: 2px solid red;
+    font-weight: bold;
+    font-family: cursive;
+    transition: all 1s ease-in-out;
+
+
+}
+
+.btn-overall button:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid red;
+}
+
+/* mobile view */
+
+
+
+@media only screen and (max-width:770px) {
+    .contactme-container {
+        width: 100%;
+        min-height: 100vh;
+        /* background-color: rgb(50, 192, 156); */
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+    }
+
+    .contactme-overall {
+        width: auto;
+        min-height: 600px;
+        /* border: 1px solid rgb(12, 76, 202); */
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+
+    .contact-left {
+        width: 300px;
+        min-height: 550px;
+        /* background-color: azure; */
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 20px;
+        border-radius: 20px;
+
+    }
+
+    .first-overall,
+    .second-overall,
+    .third-overall {
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 20px;
+        min-height: 120px;
+    }
+
+    .first,
+    .second,
+    .third {
+        font-size: 30px;
+        color: red;
+
+
+    }
+
+    .third {
+        font-size: 55px;
+    }
+
+    textarea {
+        width: 100%;
+        height: 100px;
+
+    }
+
+    .first-right,
+    .second-right,
+    .third-right {
+        /* border: 1px solid black; */
+        line-height: 25px;
+    }
+
+    .first-right p,
+    .second-right p,
+    .third-right p {
+        color: gray;
+        font-size: 15px;
+    }
+
+
+    .contact-right {
+        width: 300px;
+        min-height: 500px;
+        /* background-color: rgb(157, 131, 213); */
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        gap: 20px;
+
+    }
+
+    .name-email {
+        width: auto;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
+
+    #name {
+        width: 300px;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    input::placeholder {
+        padding-left: 20px;
+        font-size: 16px;
+        font-family: cursive;
+        font-weight: bold;
+    }
+
+    textarea::placeholder {
+        padding-left: 20px;
+        font-size: 16px;
+        padding-top: 20px;
+        font-family: cursive;
+        font-weight: bold;
+        width: auto;
+
+    }
+
+    #email {
+        width: 300px;
+        height: 50px;
+        border-radius: 10px;
+
+    }
+
+    #subject {
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+
+    }
+
+    input,
+    textarea {
+
+        /* margin-bottom: 20px; */
+        border-radius: 10px;
+
+    }
+
+
+    .btn-overall {
+        display: flex;
+        justify-content: end;
+    }
+
+
+    .btn-overall button {
+        color: white;
+        background-color: red;
+        border: none;
+        font-size: 14px;
+        padding: 10px 20px;
+        border-radius: 13px;
+        cursor: pointer;
+        border: 2px solid red;
+        font-weight: bold;
+        font-family: cursive;
+        transition: all 1s ease-in-out;
+
+
+    }
+
+    .btn-overall button:hover {
+        color: black;
+        background-color: white;
+        border: 2px solid red;
+    }
+
+
+
+
+
+
+}
+
+
+/* Tab view */
+
+
+
+@media only screen and (min-width:770px) and (max-width:1200px) {
+    .contactme-container {
+        width: 100%;
+        min-height: 100vh;
+        /* background-color: rgb(50, 192, 156); */
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+    }
+
+    .contactme-overall {
+        width: auto;
+        min-height: 600px;
+        /* border: 1px solid rgb(12, 76, 202); */
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+
+    .contact-left {
+        width: 350px;
+        min-height: 550px;
+        /* background-color: azure; */
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 20px;
+        border-radius: 30px;
+
+    }
+
+    .first-overall,
+    .second-overall,
+    .third-overall {
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 20px;
+        min-height: 120px;
+    }
+
+    .first,
+    .second,
+    .third {
+        font-size: 30px;
+        color: red;
+
+
+    }
+
+    .third {
+        font-size: 55px;
+    }
+
+    textarea {
+        width: 100%;
+        height: 100px;
+
+    }
+
+    .first-right,
+    .second-right,
+    .third-right {
+        /* border: 1px solid black; */
+        line-height: 25px;
+    }
+
+    .first-right p,
+    .second-right p,
+    .third-right p {
+        color: gray;
+        font-size: 15px;
+    }
+
+
+    .contact-right {
+        width: 350px;
+        min-height: 550px;
+        /* background-color: rgb(157, 131, 213); */
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        border-radius: 30px;
+
+
+    }
+
+    .name-email {
+        width: auto;
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        align-items: center;
+
+
+
+    }
+
+    #name {
+        width: 300px;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    input::placeholder {
+        padding-left: 20px;
+        font-size: 16px;
+        font-family: cursive;
+        font-weight: bold;
+    }
+
+    textarea::placeholder {
+        padding-left: 20px;
+        font-size: 16px;
+        padding-top: 20px;
+        font-family: cursive;
+        font-weight: bold;
+        width: auto;
+
+    }
+
+    #email {
+        width: 300px;
+        height: 50px;
+        border-radius: 10px;
+
+    }
+
+    #subject {
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+
+    }
+
+    input,
+    textarea {
+
+        /* margin-bottom: 20px; */
+        border-radius: 10px;
+
+    }
+
+
+    .btn-overall {
+        display: flex;
+        justify-content: end;
+    }
+
+
+    .btn-overall button {
+        color: white;
+        background-color: red;
+        border: none;
+        font-size: 14px;
+        padding: 10px 20px;
+        border-radius: 13px;
+        cursor: pointer;
+        border: 2px solid red;
+        font-weight: bold;
+        font-family: cursive;
+        transition: all 1s ease-in-out;
+
+
+    }
+
+    .btn-overall button:hover {
+        color: black;
+        background-color: white;
+        border: 2px solid red
+    }
+
+
+
+
+
+
+}

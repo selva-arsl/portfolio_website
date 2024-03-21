@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.79c9e353.css",
+    "main.js": "/static/js/main.992468a8.js",
+    "static/media/wonderla.png": "/static/media/wonderla.4bc0e6354e79bccd04b3.png",
+    "static/media/mmedia.png": "/static/media/mmedia.0e1a17a0fafcf2d14a5d.png",
+    "static/media/petshop.png": "/static/media/petshop.8d4a5be13750ed4a5168.png",
+    "static/media/Tea time.png": "/static/media/Tea time.f0315dfb088161f091a3.png",
+    "static/media/db2.jpg": "/static/media/db2.a0f5a4192d8074a40346.jpg",
+    "static/media/portfolio.png": "/static/media/portfolio.13488a300b248505373e.png",
+    "static/media/blog4.jpg": "/static/media/blog4.8467150558bf3d312f5f.jpg",
+    "static/media/selva_db.jpg": "/static/media/selva_db.a7bace6cab7a33ccd173.jpg",
+    "static/media/blog6.jpg": "/static/media/blog6.4858a7c10141e36f7d81.jpg",
+    "static/media/blog1.jpg": "/static/media/blog1.c07ead216a97abbeee14.jpg",
+    "static/media/blog3.jpg": "/static/media/blog3.998d3d1238d428a6b715.jpg",
+    "static/media/blog2.jpg": "/static/media/blog2.b280e2868d8ebc8909f0.jpg",
+    "static/media/blog5.jpg": "/static/media/blog5.c77a70e0d1eb309db67e.jpg",
+    "static/media/javascript.jpg": "/static/media/javascript.4ebf9bae85427d13d002.jpg",
+    "static/media/first.jpg": "/static/media/first.9bb144f1f837c5ad9432.jpg",
+    "static/media/react.svg": "/static/media/react.011e7c1df86b45faf46cd92fe47d6bbd.svg",
+    "index.html": "/index.html",
+    "main.79c9e353.css.map": "/static/css/main.79c9e353.css.map",
+    "main.992468a8.js.map": "/static/js/main.992468a8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79c9e353.css",
+    "static/js/main.992468a8.js"
+  ]
+}

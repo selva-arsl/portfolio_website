@@ -1,0 +1,17 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  scroll-behavior: smooth;
+
+}
+
+:root{
+  --red-color:red;
+  --gray-color:gray;
+  --black-color:black;
+  --white-color:white;
+  --orange-color:orange;
+}
+
+
