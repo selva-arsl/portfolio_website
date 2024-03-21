@@ -574,7 +574,7 @@ textarea {
         border-radius: 13px;
         cursor: pointer;
         border: 2px solid red;
-        font-weight: bold;
+        font-weight: bold ;
         /* font-family: cursive; */
         transition: all 1s ease-in-out;
 
