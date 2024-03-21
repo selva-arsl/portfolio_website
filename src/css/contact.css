@@ -70,12 +70,14 @@
 .second-overall,
 .thirds-overall {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* border:1px solid red; */
     display: flex;
     justify-content: start;
     align-items: center;
     gap: 40px;
     min-height: 100px;
     padding: 25px;
+
 }
 
 .first,
@@ -238,26 +240,30 @@ textarea {
 
     .contact-left {
         width: 300px;
-        min-height: 550px;
+        min-height: 490px;
         /* background-color: azure; */
         display: grid;
         grid-template-columns: auto;
         justify-content: center;
         align-items: center;
         padding: 0px 20px;
-        border-radius: 20px;
+        border-radius: 30px;
 
     }
 
+
     .first-overall,
     .second-overall,
-    .third-overall {
-        /* border: 1px solid black; */
+    .thirds-overall {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        /* border:1px solid red; */
         display: flex;
         justify-content: start;
         align-items: center;
-        gap: 20px;
-        min-height: 120px;
+        gap:5px;
+        min-height: 100px;
+        padding: 10px;
+
     }
 
     .first,
@@ -296,30 +302,33 @@ textarea {
 
     .contact-right {
         width: 300px;
-        min-height: 500px;
+        min-height: 440px;
         /* background-color: rgb(157, 131, 213); */
         display: grid;
         grid-template-columns: auto;
         justify-content: center;
         align-items: center;
-        border-radius: 20px;
         gap: 20px;
+        padding: 20px;
+        border-radius: 30px;
+
 
     }
 
     .name-email {
-        width: auto;
+        /* width: auto; */
         display: grid;
         grid-template-columns: auto;
         justify-content: center;
         align-items: center;
+        gap:0px;
 
 
 
     }
 
     #name {
-        width: 300px;
+        width: 260px;
         height: 50px;
         border-radius: 10px;
     }
@@ -342,7 +351,7 @@ textarea {
     }
 
     #email {
-        width: 300px;
+        width: auto;
         height: 50px;
         border-radius: 10px;
 
@@ -389,7 +398,7 @@ textarea {
     .btn-overall button:hover {
         color: black;
         background-color: white;
-        border: 2px solid red;
+        border: 2px solid red
     }
 
 
@@ -398,6 +407,7 @@ textarea {
 
 
 }
+
 
 
 /* Tab view */
@@ -508,13 +518,14 @@ textarea {
         grid-template-columns: auto;
         justify-content: center;
         align-items: center;
+        gap:0px;
 
 
 
     }
 
     #name {
-        width: 300px;
+        width: 320px;
         height: 50px;
         border-radius: 10px;
     }
@@ -537,7 +548,7 @@ textarea {
     }
 
     #email {
-        width: 300px;
+        width: 320px;
         height: 50px;
         border-radius: 10px;
 
@@ -574,7 +585,7 @@ textarea {
         border-radius: 13px;
         cursor: pointer;
         border: 2px solid red;
-        font-weight: bold ;
+        font-weight: bold;
         /* font-family: cursive; */
         transition: all 1s ease-in-out;
 

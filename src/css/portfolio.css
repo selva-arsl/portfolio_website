@@ -228,7 +228,7 @@
 
     .overlay {
         position: absolute;
-        transition: all .3s ease;
+        /* transition: all .3s ease-in-out; */
         opacity: 0;
         background-color: #000;
         display: flex;
@@ -292,7 +292,7 @@
 
     .overlay {
         position: absolute;
-        transition: all .3s ease;
+        /* transition: all .3s ease; */
         opacity: 0;
         background-color: #000;
         display: flex;
