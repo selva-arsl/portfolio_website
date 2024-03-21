@@ -60,9 +60,9 @@
     justify-content: center;
     align-content: center;
     padding: 0px 60px;
-    gap:35px;
+    gap: 35px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    border-radius:40px;
+    border-radius: 40px;
 
 }
 
@@ -75,7 +75,7 @@
     align-items: center;
     gap: 40px;
     min-height: 100px;
-    padding:25px;
+    padding: 25px;
 }
 
 .first,
@@ -104,7 +104,7 @@
 .contact-right {
     width: 600px;
     min-height: 550px;
-    border-radius:50px;
+    border-radius: 50px;
     /* background-color: rgb(157, 131, 213); */
     display: grid;
     grid-template-columns: auto;
@@ -202,9 +202,9 @@ textarea {
 }
 
 .btn-overall button:hover {
-    color: red;
+    color: black;
     background-color: white;
-    border: 2px solid black;
+    border: 2px solid red;
 }
 
 /* mobile view */
@@ -245,7 +245,7 @@ textarea {
         justify-content: center;
         align-items: center;
         padding: 0px 20px;
-        border-radius:20px;
+        border-radius: 20px;
 
     }
 
@@ -302,7 +302,7 @@ textarea {
         grid-template-columns: auto;
         justify-content: center;
         align-items: center;
-        border-radius:20px;
+        border-radius: 20px;
         gap: 20px;
 
     }
@@ -387,9 +387,9 @@ textarea {
     }
 
     .btn-overall button:hover {
-        color: red;
+        color: black;
         background-color: white;
-        border: 2px solid black;
+        border: 2px solid red;
     }
 
 
@@ -582,9 +582,9 @@ textarea {
     }
 
     .btn-overall button:hover {
-        color: red;
+        color: black;
         background-color: white;
-        border: 2px solid black;
+        border: 2px solid red
     }
 
 
