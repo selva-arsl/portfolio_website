@@ -1,7 +1,8 @@
 import React from "react";
 import './App.css';
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import Nav from "./nav.js";
+// import Nav from "./nav.js";
+import Navs from "./navs.js";
 import Home from "./home.js";
 import About from "./about.js";
 import Portfolio from './portfolio.js';
@@ -17,7 +18,8 @@ function App() {
 
 
       <BrowserRouter>
-        <Nav/>
+        {/* <Nav /> */}
+        <Navs />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

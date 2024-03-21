@@ -1,0 +1,82 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    color:white;
+    background-color: rgb(52, 50, 50);
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width:75%;
+}
+
+.home,.about,.portfolio,.blogs,.contact{
+    text-decoration: none;
+    color:white;
+    font-size:18px;
+    padding: 10px 20px;
+}
+
+.mob-menu-icons{
+    display: none;
+    
+}
+
+.logo{
+    font-size:25px;
+}
+
+@media screen and (max-width:780px){
+    .logo{
+        display: flex;
+        position:absolute;
+        padding-top:10px;
+        z-index: 99999;
+        top:15px;
+        left:35px;
+    }
+    .nav-links{
+        display:none;
+    }
+    .nav-links-mob{
+        position:absolute;
+        z-index: 99999;
+        display: block;
+        list-style: none;
+        background-color:rgb(52, 50, 50);
+        left: 0;
+        top:75px;
+        transition: all 0.5s ease-out;
+        width:100%;
+    }
+
+    .home,.about,.portfolio,.blogs,.contact{
+        text-align: center;
+        color:white;
+        padding:32px;
+        width: 100%;
+        transition: all 0.5s ease-out;
+    }
+
+    .mob-menu-icons{
+        display: block;
+        position:absolute;
+        font-size:30px;
+        color:white;
+        background-color: rgb(52, 50, 50);
+        top:15px;
+        right: 25px;
+        border:none;
+    }
+
+}
