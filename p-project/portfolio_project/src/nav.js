@@ -1,73 +1,75 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import "./css/nav.css";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { IoMenu } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
-import { click } from "@testing-library/user-event/dist/click";
+
 import { GiHamburgerMenu } from "react-icons/gi";
 
-class Nav_bars extends React.Component {
-    render() {
 
-        // function NavBar(){
-        //     const[click,setClick]=useState(false);
-        //     const handleClick=()=>setClick(!click);
-                
-        // }
-
-        return (
+function Nav_bars() {
+    const [click, setClick] = useState(false);
+    const Changes = () => setClick(!click);
 
 
 
-            <>
-
-                <nav className="navbar">
-                    <div className="nav-container">
-                        <NavLink exact to="/" className="nav-logo">
-                            Portfolio
-                        </NavLink>
-
-
-                        <ul className="nav-menu">
-                            <li className="nav-item">
-                                <NavLink exact to="/" activeClassName="active" className="nav-link">
-                                    Home
-                                </NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink exact to="/about" activeClassName="active" className="nav-link">
-                                    About
-                                </NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink exact to="/portfolio" activeClassName="active" className="nav-link">
-                                    Portfolio
-                                </NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink exact to="/blogs" activeClassName="active" className="nav-link">
-                                    Blogs
-                                </NavLink>
-                            </li>
-                            <li className="nav-item">
-                                <NavLink exact to="/contact" activeClassName="active" className="nav-link">
-                                    Contact
-                                </NavLink>
-                            </li>
-                        </ul>
-
-                        {/* <div className="nav-icon" onClick={handleClick}>
-                        <IoMdClose className={click ? "close" : "open"}/>
-                        </div> */}
+    return (
 
 
 
+        <>
 
+            <nav className="navbar">
+                <div className="nav-container">
+                    <NavLink exact to="/" className="nav-logo">
+                        Portfolio
+                    </NavLink>
+
+
+                    <ul className={click ? "nav-menu active" : "nav-menu"}>
+                        <li className="nav-item">
+                            <NavLink exact to="/" activeClassName="active" className="nav-link">
+                                Home
+                            </NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink exact to="/about" activeClassName="active" className="nav-link">
+                                About
+                            </NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink exact to="/portfolio" activeClassName="active" className="nav-link">
+                                Portfolio
+                            </NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink exact to="/blogs" activeClassName="active" className="nav-link">
+                                Blogs
+                            </NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink exact to="/contact" activeClassName="active" className="nav-link">
+                                Contact
+                            </NavLink>
+                        </li>
+                    </ul>
+
+                    <div className="nav-icon" onClick={Changes}>
+                        <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
+
+                        < GiHamburgerMenu className="change" />
 
 
                     </div>
-                </nav>
+
+
+
+
+
+
+                </div>
+            </nav>
 
 
 
@@ -77,7 +79,7 @@ class Nav_bars extends React.Component {
 
 
 
-                {/* <nav>
+            {/* <nav>
                     <div className="logo">
                         <h1>Logo</h1>
                     </div>
@@ -98,9 +100,8 @@ class Nav_bars extends React.Component {
 
                 </nav> */}
 
-            </>
-        );
-    };
+        </>
+    );
 };
 
 export default Nav_bars;
