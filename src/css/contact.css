@@ -60,7 +60,7 @@
     justify-content: center;
     align-content: center;
     padding: 0px 60px;
-    gap: 35px;
+    gap: 20px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     border-radius: 40px;
 
@@ -70,13 +70,14 @@
 .second-overall,
 .thirds-overall {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* border:1px solid black; */
     /* border:1px solid red; */
     display: flex;
     justify-content: start;
     align-items: center;
-    gap: 40px;
+    gap:40px;
     min-height: 100px;
-    padding: 25px;
+    padding:25px;
 
 }
 
@@ -84,7 +85,8 @@
 .second,
 .third {
     font-size: 40px;
-    color: red;
+    color:red;
+    /* padding-right:5px; */
 
 
 }
@@ -240,7 +242,7 @@ textarea {
 
     .contact-left {
         width: 300px;
-        min-height: 490px;
+        min-height: 460px;
         /* background-color: azure; */
         display: grid;
         grid-template-columns: auto;
@@ -260,7 +262,7 @@ textarea {
         display: flex;
         justify-content: start;
         align-items: center;
-        gap:5px;
+        gap:0px;
         min-height: 100px;
         padding: 10px;
 
@@ -271,6 +273,7 @@ textarea {
     .third {
         font-size: 30px;
         color: red;
+        margin-right:15px;
 
 
     }
