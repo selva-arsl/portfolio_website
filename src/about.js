@@ -11,6 +11,8 @@ import { FaGraduationCap } from "react-icons/fa";
 import { FaUserGraduate } from "react-icons/fa6";
 import { FaLaptopCode } from "react-icons/fa";
 import { BsPersonBoundingBox } from "react-icons/bs";
+import Resume from "file:///E:/Git/portfolio_website/src/assets/selva-resume-download.pdf"
+
 
 class About extends React.Component {
     render() {
@@ -55,62 +57,62 @@ class About extends React.Component {
 
                         </div>
 
-                        <button>Download CV <FaDownload className="download" /></button>
+                        <a href={Resume} download><button>Download CV <FaDownload className=" download" /></button></a>
+            </div >
+
+                <div className="right-side">
+                    <div className="firster">
+                        <h1>1</h1>
+                        <p>Year Of Experience</p>
+                    </div>
+                    <div className="seconder">
+                        <h1>2</h1>
+                        <p>Months Of Internship</p>
                     </div>
 
-                    <div className="right-side">
-                        <div className="firster">
-                            <h1>1</h1>
-                            <p>Year Of Experience</p>
-                        </div>
-                        <div className="seconder">
-                            <h1>2</h1>
-                            <p>Months Of Internship</p>
-                        </div>
-
-                        <div className="thirder">
-                            <h1>20+</h1>
-                            <p>Projects Completed</p>
-                        </div>
-
+                    <div className="thirder">
+                        <h1>20+</h1>
+                        <p>Projects Completed</p>
                     </div>
+
                 </div>
+                </div >
 
-                {/* my skills */}
+            {/* my skills */ }
 
-                <div className="myskills-overall">
-                    <h1>MY <span>SKILLS</span></h1>
+            < div className = "myskills-overall" >
+                <h1>MY <span>SKILLS</span></h1>
+                </div >
+
+            <div className="images-overall">
+                <div className="box-1">
+                    <img src={HTML} alt="html/logo" />
+                    <h3>HTML</h3>
                 </div>
-
-                <div className="images-overall">
-                    <div className="box-1">
-                        <img src={HTML} alt="html/logo" />
-                        <h3>HTML</h3>
-                    </div>
-                    <div className="box-2">
-                        <img src={CSS} alt="html/logo" />
-                        <h3>CSS</h3>
-                    </div>
-                    <div className="box-3">
-                        <img src={BOOTSTRAP} alt="html/logo" />
-                        <h3>BOOTSTRAP</h3>
-                    </div>
-                    <div className="box-4">
-                        <img src={JAVASCRIPT} alt="html/logo" />
-                        <h3>JAVASCRIPT</h3>
-                    </div>
-                    <div className="box-5">
-                        <img src={REACT} alt="html/logo" />
-                        <h3>REACT</h3>
-                    </div>
-                    <div className="box-6">
-                        <img src={GITHUB} alt="html/logo" />
-                        <h3>GITHUB</h3>
-                    </div>
+                <div className="box-2">
+                    <img src={CSS} alt="html/logo" />
+                    <h3>CSS</h3>
                 </div>
+                <div className="box-3">
+                    <img src={BOOTSTRAP} alt="html/logo" />
+                    <h3>BOOTSTRAP</h3>
+                </div>
+                <div className="box-4">
+                    <img src={JAVASCRIPT} alt="html/logo" />
+                    <h3>JAVASCRIPT</h3>
+                </div>
+                <div className="box-5">
+                    <img src={REACT} alt="html/logo" />
+                    <h3>REACT</h3>
+                </div>
+                <div className="box-6">
+                    <img src={GITHUB} alt="html/logo" />
+                    <h3>GITHUB</h3>
+                </div>
+            </div>
 
 
-                {/* my Education */}
+        {/* my Education */ }
 
                 <div className="myEducation-overall">
                     <h1>MY <span>EDUCATION</span></h1>
