@@ -11,7 +11,7 @@ import { FaGraduationCap } from "react-icons/fa";
 import { FaUserGraduate } from "react-icons/fa6";
 import { FaLaptopCode } from "react-icons/fa";
 import { BsPersonBoundingBox } from "react-icons/bs";
-import Resume from "file:///E:/Git/portfolio_website/src/assets/selva-resume-download.pdf"
+import Resume from "file:///E:/Git/portfolio_website/src/assets/selva_samprash_resume_1.pdf";
 
 
 class About extends React.Component {
