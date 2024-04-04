@@ -128,9 +128,9 @@ class About extends React.Component {
                                 <FaGraduationCap className="icon1" /> <span> Mar 2014 - Apr 2017</span>
                             </div>
 
-                            <h2>Higher Secondary 12TH</h2>
+                            <h2>Higher Secondary 12TH </h2>
 
-                            <p>I scored 60% on the higher secondary board exam. And I am very mush interested in electronics and computers, so I have taken the b.sc computer degree at College.</p>
+                            <p>I scored 60% on the higher secondary board exam . And I am very mush interested in electronics and computers, so I have taken the b.sc computer degree at College.</p>
 
                         </div>
                         <div className="Education-box2">
